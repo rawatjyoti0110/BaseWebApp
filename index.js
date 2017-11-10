@@ -18,6 +18,11 @@ app.get('/about', function(request, response) {
   response.render('pages/about');
 });
 
+
+app.get('/form', function(request, response) {
+  response.render('pages/form');
+});
+
 app.get('/projects', function(request, response) {
   response.render('pages/projects');
 });
