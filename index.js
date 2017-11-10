@@ -23,14 +23,6 @@ app.get('/form', function(request, response) {
   response.render('pages/form');
 });
 
-app.get('/projects', function(request, response) {
-  response.render('pages/projects');
-});
-
-app.get('/contact', function(request, response) {
-  response.render('pages/contact');
-});
-
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
